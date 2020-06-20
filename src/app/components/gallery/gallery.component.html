@@ -1,0 +1,31 @@
+ <app-header></app-header>
+<div class="gallery" >
+      <mat-card class="card" *ngFor="let gallery of allImages">
+        <mat-card-header>
+          <mat-card-title>{{gallery.title}}</mat-card-title>
+        </mat-card-header>
+
+      <img mat-card-image id="display-image" src={{gallery.cover}} alt="Book">
+        <mat-card-content>
+
+     <p>     Categories: {{gallery.categories}}</p>
+ <p>         author: {{gallery.author}}</p>
+ <p>         volume: {{gallery.volume}}</p>
+    <p>      year: {{gallery.year}}</p>
+  <p>        edition: {{gallery.edition}}</p>
+   <p>       language: {{gallery.language}}</p>
+    <p>      extension: {{gallery.extension}}</p>
+<p>          pages: {{gallery.pages}}</p>
+   <p>       filesize: {{gallery.filesize}}</p>
+       <p>   md5: {{gallery.md5}}</p>
+ <p>         series: {{gallery.series}}</p>
+     <p>     periodical: {{gallery.periodical}}</p>
+         <p> file_extension: {{gallery.file_extension}}</p>
+
+
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>MORE</button>
+        </mat-card-actions>
+      </mat-card>
+</div>

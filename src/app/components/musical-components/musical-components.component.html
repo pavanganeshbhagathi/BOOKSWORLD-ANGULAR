@@ -1,0 +1,23 @@
+ <app-header></app-header>
+<div class="main-container">
+  <div class="music-buttons">
+    <!--<button mat-button color="accent" [routerLink]="[{ outlets: { imageOutlet: ['galleryFilter'] } }]"
+      routerLinkActive="active">Guitars</button>-->
+      <a [routerLink]="[{ outlets: { imageOutlet: ['galleryFilter'] } }]">
+        Products List
+      </a> <br>
+    <br>
+    <button mat-button color="accent">Piano</button> <br> <br>
+    <button mat-button color="accent">Drums</button> <br> <br>
+    <button mat-button color="accent">Keyboard</button> <br> <br>
+    <button mat-button color="accent">Harmony</button> <br> <br>
+    <button mat-button color="accent">Flute</button> <br> <br>
+  </div>
+
+  <div class="music-outlet">
+     <router-outlet name="imageOutlet"></router-outlet>
+  </div>
+
+</div>
+
+

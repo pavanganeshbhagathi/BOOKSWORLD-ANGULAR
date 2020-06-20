@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "AngularProjectWith JSONCRUD\u001b[D\u001b[D\u001b[D\u001b[D \u001b[C\u001b[C\u001b[D\u001b[DCRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YashasreeTummala",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

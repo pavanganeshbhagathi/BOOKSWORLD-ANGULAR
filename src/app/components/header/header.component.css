@@ -1,0 +1,68 @@
+.header-section {
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-weight: 600;
+  font-size: 2em;
+  padding: 10px;
+}
+
+mat-toolbar {
+  background-color: navy;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    margin-right: 0px;
+    color: whitesmoke;
+}
+
+.login-register{
+margin-left: 15%;
+}
+
+mat-icon{
+  margin-left: 11%;
+}
+/*img{
+  width: 130px;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding: 5px;
+  border-radius: 50px;
+}
+input[type=text] {
+  margin-top: 2px;
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid white;
+  background: white;
+  box-sizing: border-box;
+}
+*/
+#search{
+    width: 340px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    background-image: url('../../../assets/icons8-search-100.png');
+    background-size: 18px 18px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.link-active{
+  background-color: brown;
+  color: black;
+}
